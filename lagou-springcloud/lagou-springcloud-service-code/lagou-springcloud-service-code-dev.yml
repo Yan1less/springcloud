@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: lagou-springcloud-service-code
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://117.51.156.217:3306/lagou_springcloud?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2b8
+    username: root
+    password: Ll123698*
+  jpa:
+    database: MySQL
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
